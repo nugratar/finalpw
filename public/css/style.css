@@ -1,0 +1,44 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.btn:hover,
+a:hover {
+  font-weight: bold;
+  box-shadow: 0 2px 3px #000000;
+}
+
+.navbar {
+  box-shadow: 0px 3px 4px #c6c6c6;
+}
+
+.nav-link:hover {
+  background-color: salmon;
+  border-radius: 3px;
+}
+
+.sampul {
+  width: 100px;
+}
+
+.table > tbody > tr > * {
+  vertical-align: middle;
+}
+
+.card-img {
+  max-width: 720px;
+}
+
+#text {
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-top: 4px solid salmon;
+}
+
+#back {
+  position: absolute;
+  right: 0px;
+}
